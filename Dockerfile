@@ -9,4 +9,4 @@ COPY ./build  /var/www/
 COPY web.conf /etc/nginx/conf.d/default.conf
 CMD npm build
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
